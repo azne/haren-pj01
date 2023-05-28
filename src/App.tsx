@@ -1,5 +1,6 @@
 import Lottie from 'lottie-react'
-import mvAnimation from "./mv_animation.json";
+import mvAnimation from "./mv_animation.json"
+import { Logo } from './components/logo'
 
 import './App.css'
 
@@ -8,7 +9,10 @@ function App() {
   return (
     <>
       <header className='header'>
-        <h1 className='mainHd'>Welcome!</h1>
+        <h1 className='mainHd'>
+          <span>COSMIC-RABBIT</span>
+          <Logo className='logo' />
+        </h1>
       </header>
       <main>
         <section>

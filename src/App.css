@@ -4,28 +4,40 @@
 }
 
 body {
-  background-color:#ffffff;
+  background-color:#dcedff;
   height: 100%;
   overflow-y: auto;
 }
 
 .header {
-  position: relative;
-  min-height: 56px;
-  padding: 1rem;
-  background-color: #e92fb9;
+  position: fixed;
+  width: 100%;
+  min-height: 32px;
+  padding: 1.5rem;
+  box-sizing: border-box;
   color: #ffffff;
 }
 
 .mainHd {
-  position: absolute;
-  top: 8px;
-  transform: rotate(-5deg);
   margin: 0;
-  font-size: 4rem;
-  font-weight: 700;
-  text-align: center;
-  font-family: 'Courgette', cursive;
+  font-size: 1rem;
+}
+
+.mainHd span {
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.logo {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 32px;
+  fill: #ffffff;
 }
 
 #lottie {
